@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- -------------Favicon----------- -->
+
+  <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+
+  <title>Product Details Page</title>
+
+</head>
+
+<body>
+
+
+
+
+    <!-- --------------- Navbar-------------------------- -->
+    <header class="nav-container">
+
+      <div class="nav-logo">
+  
+        <a href="index.html"><img src="./assets/images/logo.png" alt="logo"></a>
+  
+      </div>
+  
+      <i class="bi bi-menu-app open-menu"></i>
+  
+      <div class="background"></div>
+  
+  
+  
+      <div class="nav-link-container">
+  
+        <i class="bi bi-x-octagon-fill close-menu"></i>
+  
+        <ul class="nav-links">
+  
+          <li class="nav-link-item"><a href="index.html">Home</a></li>
+  
+  
+  
+          <li class="nav-link-item dropdown-menu-branch">
+  
+            <div class="d-flex align-items-center justify-content-between product-dropdown-menu">
+  
+              <a href="services.html" class="service-dropdown-menu">Services</a>
+              <button type="button" class="dropdown-toggle-icon-btn" data-toggle="dropdown-menu" aria-label="Toggle dropdown">
+                <i class="bi bi-arrow-down-circle-fill dropdown-toggle-icon"></i>
+              </button>
+            </div>
+  
+            <ul class="dropdown-main-menu">
+  
+              <li class="dropdown-menu-item"><a href="service-details.html">AEPS</a></li>
+              <li class="dropdown-menu-item"><a href="service-details.html">AEPS</a></li>
+              <li class="dropdown-menu-item"><a href="service-details.html">AEPS</a></li>
+              <li class="dropdown-menu-item"><a href="service-details.html">AEPS</a></li>
+              <li class="dropdown-menu-item"><a href="service-details.html">AEPS</a></li>
+              <li class="dropdown-menu-item"><a href="service-details.html">AEPS</a></li>
+            </ul>
+  
+          </li>
+  
+          <li class="nav-link-item dropdown-menu-branch">
+  
+            <div class="d-flex align-items-center justify-content-between product-dropdown-menu">
+  
+              <a href="product.html" class="service-dropdown-menu">Products</a>
+  
+              <button type="button" class="dropdown-toggle-icon-btn" data-toggle="dropdown-menu" aria-label="Toggle dropdown">
+                <i class="bi bi-arrow-down-circle-fill dropdown-toggle-icon"></i>
+              </button>
+  
+            </div>
+  
+            <ul class="dropdown-main-menu">
+  
+              <li class="dropdown-menu-item"><a href="product-details.html">Product 1</a></li>
+              <li class="dropdown-menu-item"><a href="product-details.html">Product 1</a></li>
+              <li class="dropdown-menu-item"><a href="product-details.html">Product 1</a></li>
+              <li class="dropdown-menu-item"><a href="product-details.html">Product 1</a></li>
+              <li class="dropdown-menu-item"><a href="product-details.html">Product 1</a></li>
+              <li class="dropdown-menu-item"><a href="product-details.html">Product 1</a></li>
+            </ul>
+  
+          </li>
+  
+          <li class="nav-link-item"><a href="#home-aboutus-section">About</a></li>
+  
+          <li class="nav-link-item"><a href="contact-us.html">Contact</a></li>
+  
+          <li class="nav-link-item"><a href="login.html"><span class="nav-apply-btn">Login</span></a></li>
+  
+        </ul>
+  
+      </div>
+  
+    </header>
+    <!-- ------------------------------Banner----------------------------------------- -->
+
+    <section class="hero-section-container">
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-6 mt-5">
+
+                    <div class="service-banner-details-show">
+
+                        <h1>Products Details</h1>
+
+                        <div class="mt-2"><img src="./assets/images/bottom-line.png" alt="background"></div>
+
+                        <p class="mt-4">Empower your business with Sikhwal Multiservices’ fast, secure, and PCI-DSS-compliant Payment Gateway Solutions — enabling smooth online transactions through credit cards, UPI, net banking, and more.
+                        </p>
+                        <a href="#">
+
+                            <div class="service-details-wp-icon"><i class="bi bi-whatsapp"></i></div>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mt-3">
+
+                    <div>
+
+                        <img src="./assets/images/service-detail-img.png" alt="banner-image" class="img-fluid">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ------------------------------Service Details----------------------------------------- -->
+
+    <section class="service-details-main-content">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12 mt-3">
+                     <h2>Drive Growth with Reliable Digital Payment Solutions</h2>
+                     <p>At Sikhwal Multiservices Pvt. Ltd., we provide scalable, secure, and customizable Payment Gateway Solutions built for businesses of all types and sizes. Whether you're running a growing e-commerce store, a SaaS business, or offering utility services — our gateway ensures you accept payments online with complete peace of mind.</p>
+                </div>
+                <div class="col-md-8 mt-3">
+                    <h3>Why Choose Our Payment Gateway Solutions?</h3>
+                    <p>Our gateway services are designed to simplify digital payments while meeting the highest standards of security and efficiency. Here’s what makes us stand out:</p>
+
+                  <ul>
+                    <li><b>All-in-One Integration:</b> Accept payments via credit/debit cards, UPI, net banking, and popular digital wallets.</li>
+                    <li><b>Security First:</b> Compliant with PCI-DSS standards, offering advanced fraud detection and real-time transaction monitoring.</li>
+                    <li><b>Analytics & Insights:</b> Access transaction history, monitor trends, and get performance reports at your fingertips.</li>
+                    <li><b>Quick Settlement Cycles:</b> Enjoy fast and reliable payouts that help you maintain steady cash flow.</li>
+                    <li><b>Fully Customizable:</b> Tailor the payment experience to your brand and customer journey.</li>
+                    <li><b>Dedicated Support:</b> Our expert team is always available to assist you through onboarding, setup, and troubleshooting.</li>
+                  </ul>
+                  <h4>Our expert team is always available to assist you through onboarding, setup, and troubleshooting.</h4>
+                  <p>Our payment gateway seamlessly fits businesses across industries:</p>
+                  <ul>
+                    <li>E-commerce Platforms</li>
+                    <li>Subscription-based Services</li>
+                    <li>Utility & Bill Payment Providers</li>
+                    <li>Freelancers & Professionals</li>
+                    <li>Retail & POS Systems</li>
+                  </ul>
+
+                  <h4>How It Works</h4>
+                  <ol>
+                    <li><b>Easy Onboarding –</b> Fast approval and hassle-free integration.</li>
+                    <li><b>Secure Transactions –</b> All transactions are encrypted and monitored in real-time.</li>
+                    <li><b>Flexible Payment Modes –</b> Your customers can pay their way: card, wallet, UPI, or bank.</li>
+                    <li><b>Insightful Reports –</b> Gain access to powerful analytics to optimize your operations.</li>
+                  </ol>
+
+                  <h5>Let Us Handle the Payments — So You Can Focus on Growth</h5>
+                  <p>You don’t need to worry about downtime, fraud risks, or complicated setups. Sikhwal Multiservices delivers a robust and future-ready payment ecosystem backed by:</p>
+               
+               <ul>
+                <li>24x7 Support</li>
+                <li>99.99% Uptime Guarantee</li>
+                <li>Transparent Pricing</li>
+                <li>Local Expertise</li>
+               
+               </ul>
+               <h6>Partner With Sikhwal Multiservices Today</h6>
+               <p>Whether you're a startup or an established brand, our Payment Gateway Solutions are built to scale with you.
+                   Streamline your transactions, delight your customers, and accelerate your business with us.
+                   </p>
+                   <p>Have questions? Get in touch via the contact form or connect with our support team — we’re just one click away!</p>
+                </div>
+
+                <div class="col-md-4 mt-3">
+
+                    <div class="login-background-box service-details-form">
+
+                        <h3 class="text-center">Let's Deal</h3>
+
+                        <form action="">
+
+                            <input type="text" placeholder="Enter Your Name*" class="login-input-box">
+
+                            <input type="email" placeholder="Enter Email ID*" class="login-input-box">
+
+                            <input type="text" placeholder="Enter Mobile Number*" class="login-input-box">
+
+                            <textarea name="" id="" cols="30" rows="4" placeholder="Message"
+
+                                class="login-input-box"></textarea>
+
+                            <button class="loginpage-button">Submit Now</button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    
+
+             <!-- --------------------------------------Testimonials------------------------------------------------------- -->
+
+             <section class="mt-5">
+
+                <div class="container">
+            
+                  <div class="services-heading-view">
+            
+                    <div><img src="./assets/images/heading-bg.png" alt="background"></div>
+            
+                    <h3>What Our Happy<br> Customers Says</h3>
+            
+                  </div>
+            
+            
+            
+                  <div class="swiper testimonial-slider">
+            
+                    <div class="swiper-wrapper">
+            
+                      <!-- 6 Example Slides -->
+            
+                      <div class="swiper-slide">
+            
+                        <div class="testimonial-slider-box">
+                          <p>“Sikhwal Multi Services helped me grow my retail business 3X in just 6 months.” </p>
+                          <div class="d-flex align-items-center">
+            
+                            <div><img
+                                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="user" class="user-image"></div>
+            
+                            <div class="testimonial-user-details">
+            
+                              <div class="name">Anil Sharma</div>
+            
+                              <div class="date">Retailer
+                              </div>
+            
+                              <div class="icon"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                  class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></div>
+            
+                            </div>
+            
+                          </div>
+                        </div>
+            
+                      </div>
+            
+                      <div class="swiper-slide">
+            
+                        <div class="testimonial-slider-box">
+            
+            
+                          <p>“Their POS and Payment Gateway solutions are top-notch, easy to use, and very profitable.” </p>
+            
+                          
+                          <div class="d-flex align-items-center">
+            
+                            <div><img
+                                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="user" class="user-image"></div>
+            
+                            <div class="testimonial-user-details">
+            
+                              <div class="name">Meena Kapoor</div>
+            
+                              <div class="date">Distributor
+                              </div>
+            
+                              <div class="icon"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                  class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></div>
+            
+                            </div>
+            
+                          </div>
+
+                        </div>
+            
+                      </div>
+            
+                      <div class="swiper-slide">
+            
+                        <div class="testimonial-slider-box">
+
+                          <p> “Professional team, fast support, and wide-ranging services. Highly recommended!”
+                          </p>
+                        
+                          <div class="d-flex align-items-center">
+            
+                            <div><img
+                                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="user" class="user-image"></div>
+            
+                            <div class="testimonial-user-details">
+            
+                              <div class="name"> Rajiv Joshi</div>
+            
+                              <div class="date">MSME Owner
+                              </div>
+            
+                              <div class="icon"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                  class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></div>
+            
+                            </div>
+            
+                          </div>
+            
+                        </div>
+            
+                      </div>
+            
+            
+                      <div class="swiper-slide">
+            
+                        <div class="testimonial-slider-box">
+            
+                
+                          <p>“Sikhwal Multi Services has completely transformed my business. I was just running a small shop, but with their AEPS, bill payment, and travel services, I now serve over 100 customers a day. Their system is fast, support is excellent, and commissions are better than any other platform I’ve used.”   </p>
+                          <div class="d-flex align-items-center">
+            
+                            <div><img
+                                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="user" class="user-image"></div>
+            
+                            <div class="testimonial-user-details">
+            
+                              <div class="name">Rajeev Sharma</div>
+            
+                              <div class="date">Retail Partner
+                              </div>
+            
+                              <div class="icon"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                  class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></div>
+            
+                            </div>
+            
+                          </div>
+            
+                        </div>
+            
+                      </div>
+            
+            
+                      <div class="swiper-slide">
+            
+                        <div class="testimonial-slider-box">
+            
+   
+            
+                          <p>“Reliable. Profitable. Supportive. That’s how I describe Sikhwal Multi Services. I started using their POS and Micro ATM services and my footfall increased significantly. Their team guided me through every step, and the payouts are always on time.”  </p>
+                          <div class="d-flex align-items-center">
+            
+                            <div><img
+                                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="user" class="user-image"></div>
+            
+                            <div class="testimonial-user-details">
+            
+                              <div class="name">Priya Soni</div>
+            
+                              <div class="date">Business Owner
+                              </div>
+            
+                              <div class="icon"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                  class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></div>
+            
+                            </div>
+            
+                          </div>
+                        </div>
+            
+                      </div>
+            
+            
+                      <div class="swiper-slide">
+            
+                        <div class="testimonial-slider-box">
+            
+             
+            
+                          <p>“As a rural entrepreneur, I always wanted to bring banking services to my village. Thanks to Sikhwal Multi Services, I now provide AEPS, cash withdrawal, and recharge services to people who don’t even have a bank nearby. It’s not just a business for me—it’s service to the community.”   </p>
+                          <div class="d-flex align-items-center">
+            
+                            <div><img
+                                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="user" class="user-image"></div>
+            
+                            <div class="testimonial-user-details">
+            
+                              <div class="name">Vijay Parmar</div>
+            
+                              <div class="date">Digital Mitra
+                              </div>
+            
+                              <div class="icon"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                  class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></div>
+            
+                            </div>
+            
+                          </div>
+                        </div>
+            
+                      </div>
+            
+            
+                      <div class="swiper-slide">
+            
+                        <div class="testimonial-slider-box">
+
+            
+                          <p>“The payment gateway integration was seamless, and the team offered full tech support. Our website now accepts secure payments, and we’ve seen a 35% boost in online conversions. Couldn’t have asked for a more cooperative partner.”   </p>
+                        
+                          <div class="d-flex align-items-center">
+            
+                            <div><img
+                                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="user" class="user-image"></div>
+            
+                            <div class="testimonial-user-details">
+            
+                              <div class="name">Aditi Khanna</div>
+            
+                              <div class="date">E-Commerce Brand Owner
+                              </div>
+            
+                              <div class="icon"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                  class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></div>
+            
+                            </div>
+            
+                          </div>
+                        </div>
+            
+                      </div>
+            
+            
+                      <div class="swiper-slide">
+            
+                        <div class="testimonial-slider-box">
+            
+
+            
+                          <p>“I have worked with multiple service providers in the past, but Sikhwal Multi Services stands out. Their platform is easy to use, their services are diverse, and most importantly, they treat small retailers with the same importance as big clients.”   </p>
+                          <div class="d-flex align-items-center">
+            
+                            <div><img
+                                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
+                                alt="user" class="user-image"></div>
+            
+                            <div class="testimonial-user-details">
+            
+                              <div class="name">Imran Sheikh</div>
+            
+                              <div class="date">Retail Agent
+                              </div>
+            
+                              <div class="icon"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                                  class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></div>
+            
+                            </div>
+            
+                          </div>
+                        </div>
+            
+                      </div>
+                    </div>
+            
+            
+            
+                    <!-- Navigation buttons -->
+            
+                    <div class="swiper-button-next" style="background-color: #FFDC64;border:none"></div>
+            
+                    <div class="swiper-button-prev" style="background-color: #FFDC64;border:none"></div>
+            
+                  </div>
+            
+                </div>
+            
+              </section>
+            
+            
+   
+   <!-- ===============================Footer==================================== -->
+
+   <footer class="footer-bg">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mt-3">
+
+          <h4>Legal Terms & Policies</h4>
+
+          <ul>
+
+            <li class="footer-list"><a href="terms.html">Terms Of Use</a></li>
+
+            <li class="footer-list"><a href="privacy.html">Privacy & Policy</a></li>
+
+            <li class="footer-list"><a href="refund.html">Refund & Cancellation Policy</a></li>
+
+          </ul>
+
+        </div>
+
+        <div class="col-md-4 mt-3">
+
+          <h4> Our Services</h4>
+
+          <ul>
+
+            <li class="footer-list"><a href="#">Digital Payment Solutions</a></li>
+
+            <li class="footer-list"><a href="#">Loan & Credit Services</a></li>
+
+            <li class="footer-list"><a href="#">Banking & Financial Services</a></li>
+
+            <li class="footer-list"><a href="#">Recharge & Bill Payments (BBPS)</a></li>
+
+            <li class="footer-list"><a href="#">Business & White Label Solutions</a></li>
+            <li class="footer-list"><a href="services.html"><span class="hero-section-btn"><b>View all <i class="bi bi-arrow-right"></i></b></span>
+              </a></li>
+          </ul>
+
+        </div>
+
+        <div class="col-md-4 mt-3">
+
+          <h4> Contact Us</h4>
+
+          <ul>
+
+            <li class="footer-list"><i class="bi bi-geo-alt-fill"></i> <span class="ms-3">
+              Bhagawati Nagar 2nd,
+              Kartarpura,<br> <span style="margin-left:34px;">Jaipur – 302006 </span></span></li>
+
+            <li class="footer-list"><i class="bi bi-telephone-fill"></i> <span class="ms-3">+91-90791-32001 </span></li>
+
+            <li class="footer-list"><i class="bi bi-envelope-fill"></i> <span class="ms-3">help.smplraj@gmail.com</span>
+            </li>
+
+
+
+          </ul>
+
+          <!-- <div class="d-flex align-items-center">
+
+            <a href="#">
+              <div class="social-icons"><i class="fa-brands fa-facebook-f"></i></div>
+            </a>
+
+            <a href="#">
+              <div class="social-icons"><i class="fa-brands fa-twitter"></i></div>
+            </a>
+
+            <a href="#">
+              <div class="social-icons"><i class="fa-brands fa-instagram"></i></div>
+            </a>
+
+            <a href="#">
+              <div class="social-icons"><i class="fa-brands fa-linkedin-in"></i></div>
+            </a>
+
+          </div> -->
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="text-center"><p class="copy-right-text">Sikhwal Multiservices Pvt Ltd  © 2025 All rights reserved.</p></div>
+
+  </footer>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script>
+    
+document.addEventListener("DOMContentLoaded", function () {
+  new Swiper(".testimonial-slider", {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+  });
+
+
+});
+  </script>
+</body>
+
+</html>
